@@ -1,0 +1,2 @@
+# ggQQ
+gráfico cuantil-cuantil
