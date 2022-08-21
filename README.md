@@ -1,7 +1,9 @@
 # ggQQ
 gráfico cuantil-cuantil
-#FUENTE ORIGINAL: <script src="https://gist.github.com/rentrop/d39a8406ad8af2a1066c.js"></script>
+#FUENTE ORIGINAL: 
+<script src="https://gist.github.com/rentrop/d39a8406ad8af2a1066c.js"></script>
 
+```{r }
 gg_qq <- function(x, distribution = "norm", ..., line.estimate = NULL, conf = 0.95,
                   labels = names(x)){
   q.function <- eval(parse(text = paste0("q", distribution)))
@@ -42,3 +44,4 @@ gg_qq <- function(x, distribution = "norm", ..., line.estimate = NULL, conf = 0.
   print(p)
   coef
 }
+```
